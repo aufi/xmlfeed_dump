@@ -7,7 +7,8 @@ An RSS/Atom or other xml-based feed dump tool.
 ## Installation
 
 ```
-$ wget #TODO
+$ wget https://github.com/aufi/xmlfeed_dump/raw/master/xmlfeed_dump
+$ chmod +x xmlfeed_dump
 ```
 
 ## Usage
@@ -15,7 +16,7 @@ $ wget #TODO
 Possible options
 
 ```
-$ xmlfeed_dump -h
+$ ./xmlfeed_dump -h
 Usage of xmlfeed_dump:
   -destination string
         Local directory path where items should
@@ -26,7 +27,7 @@ Usage of xmlfeed_dump:
 Example usage
 
 ```
-$ xmlfeed_dump -url http://cvut2tut.blogspot.com/feeds/posts/default
+$ ./xmlfeed_dump -url http://cvut2tut.blogspot.com/feeds/posts/default
 2020/06/25 20:56:38 Starting RSS/Atom feed website dumper for http://cvut2tut.blogspot.com/feeds/posts/default
 2020/06/25 20:56:38 Preparing destination directory..
 2020/06/25 20:56:38 Fetching the feed..
